@@ -10,7 +10,7 @@ function find() { // EXERCISE A
       LEFT JOIN steps as st
           ON sc.scheme_id = st.scheme_id
       GROUP BY sc.scheme_id
-      ORDER BY sc.scheme_id ASC;
+      ORDER BY sc.scheme _id ASC;
 
     2A- When you have a grasp on the query go ahead and build it in Knex.
     Return from this function the resulting dataset.
